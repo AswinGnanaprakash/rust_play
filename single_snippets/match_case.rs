@@ -2,6 +2,7 @@ use std::io;
 
 fn main() {
     let mut input_text = String::new();
+    println!("Enter a name:");
     // get the input_text from cli
     io::stdin()
         .read_line(&mut input_text)
